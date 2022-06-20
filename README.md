@@ -3,6 +3,7 @@
 # React Crypto Capstone
 
 > Microverse React Capstone Project : Development of the MetaCrypt app using ReactJs and Redux 
+![preview](https://user-images.githubusercontent.com/89282221/174613631-546ea19e-0180-478c-ae78-f4b19bf0df7b.png)
 
 
 ## Built With
