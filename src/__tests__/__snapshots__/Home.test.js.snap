@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Components Renders correctly 1`] = `
+<div
+  className="text-center"
+>
+  <div
+    className=" text-center p-4 spinner-grow text-light"
+    role="status"
+  />
+</div>
+`;

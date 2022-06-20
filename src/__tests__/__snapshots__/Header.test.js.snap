@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Components Renders correctly 1`] = `
+<div
+  className="col-12 d-flex justify-content-between p-3"
+  style={
+    Object {
+      "backgroundColor": "black",
+    }
+  }
+>
+  <a
+    href="#/"
+    onClick={[Function]}
+  >
+     
+    <span
+      className="text-white"
+    >
+      Home
+    </span>
+     
+  </a>
+  <span
+    className="text-white"
+  >
+    MetaCrypt
+  </span>
+  <span
+    className="text-white  d-flex  "
+  >
+    <i
+      className="bi bi-mic-fill"
+    />
+    <i
+      className="bi bi-gear-fill"
+    />
+  </span>
+</div>
+`;
