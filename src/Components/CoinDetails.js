@@ -13,7 +13,6 @@ function CoinDetails() {
       coin = element;
     }
   });
-  console.log(coin);
   return (
     <>
       <div className={coin.change > 0 ? ('glassSucessBG') : ('glassFailureBG')}>

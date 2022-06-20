@@ -7,7 +7,6 @@ import FetchCryptos from '../Redux/api';
 function Home() {
   const dispatch = useDispatch();
   const crypto = useSelector((state) => state.cryptos);
-  console.log(crypto);
   async function intitData() {
     const data = await FetchCryptos();
     dispatch(SetCryptos(data));

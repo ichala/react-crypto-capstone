@@ -30,7 +30,6 @@ const CardSmallChart = () => {
     bcolor = 'rgba(232, 9, 36,0.8)';
     color = 'rgba(205, 2, 26 ,0.2)';
   }
-  console.log({ coin });
   const coinPrice = [];
   for (let i = 0; i < coin.sparkline?.length; i += 1) {
     coinPrice.push(i);
@@ -88,8 +87,6 @@ const CardSmallChart = () => {
       },
     },
   };
-  console.log({ data });
-  console.log({ options });
   return (
     <>
       <div className="row-12 justify-content-center align-items-center">
